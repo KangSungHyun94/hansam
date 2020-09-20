@@ -13,3 +13,18 @@ header .spot li:after{content: ""; position:absolute; left: 0; top: 50%; width:1
 header .spot li a { display : block; height: 81px; padding: 0 10px; line-height:81px;}
 header .spot li:last-child a {padding-right: 0;}
 header .spot li:first-child::after {display: none;}
+
+ul{list-style: none;}
+.visual{position:relative; padding :0 50px;}
+.visual .prev,
+.visual .next{display:block; position:absolute; top:50%; width:25px;height:47px;background:url("../이미지/sp_com.png") no-repeat;  transform:translateY(-50%); color:transparent;}
+.visual .next{right: 82px; background-position: -158px -60px;}
+.visual .prev{left:82px;background-position: -128px -60px;}
+.visual .con .slide{background:url("../이미지/bg_main04.jpg") no-repeat center;}
+.visual .con>div{height:640px;}
+
+.visual .control{position:absolute; left:0; bottom:55px; text-align: center;}
+.visual .control>div{display: inline-block; position:relative; padding:0 45px 0 0;}
+.visual .control>div>div{position:absolute; right: 0;}
+.visual .control a{color:transparent;}
+.visual .control * {border :1px solid red;}
